@@ -1,0 +1,6 @@
+resource_group_name      = "YOUR_EXISTING_LAB_RESOURCE_GROUP"
+location                 = "eastus"
+name_prefix              = "cloudforge"
+vnet_address_space       = "10.20.0.0/16"
+subnet_address_prefix    = "10.20.1.0/24"
+trusted_ssh_source       = "192.0.2.10/32"
